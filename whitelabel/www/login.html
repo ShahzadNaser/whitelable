@@ -6,7 +6,7 @@
 		<label class="form-label sr-only" for="login_email">{{ login_label or _("Email")}}</label>
 		<div class="email-field">
 			<input type="text" id="login_email" class="form-control"
-				placeholder="{% if login_name_placeholder %}{{ login_name_placeholder  }}{% else %}{{ _('jane@isanode.com') }}{% endif %}"
+				placeholder="{% if login_name_placeholder %}{{ login_name_placeholder  }}{% else %}{{ _('jane@example.com') }}{% endif %}"
 				required autofocus>
 
 			<svg class="field-icon email-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
@@ -141,7 +141,7 @@
 					<div class="form-group">
 						<label class="form-label sr-only" for="signup_email">Email</label>
 						<input type="email" id="signup_email" class="form-control"
-							placeholder="{{ _('jane@isanode.com') }}" required>
+							placeholder="{{ _('jane@example.com') }}" required>
 					</div>
 				</div>
 				<div class="page-card-actions">
