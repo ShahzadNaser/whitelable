@@ -57,9 +57,9 @@
 {% endblock %}
 
 {% macro logo_section() %}
-<div class="page-card-head">
+<div class="page-card-head" style="margin-bottom: 1.5rem;">
 	<img class="app-logo" style="margin-bottom: 10px;max-height: 70px;" src="{{ logo }}">
-	<h4>{{ _('Login to {0}').format(app_name or _("Application")) }}</h4>
+	<!-- <h4>{{ _('Login to {0}').format(app_name or _("Application")) }}</h4> -->
 </div>
 {% endmacro %}
 
