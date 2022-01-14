@@ -11,7 +11,6 @@ app_color = "grey"
 app_email = "shahzadnaser1122@gmaail.com"
 app_license = "MIT"
 app_logo_url = '/assets/whitelabel/images/logo.png'
-
 # Includes in <head>
 # ------------------
 
