@@ -1,6 +1,6 @@
-## Whitelable
+## Whitelabel
 
-Whitelable
+Whitelabel
 
 #### License
 
